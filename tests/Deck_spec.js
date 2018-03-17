@@ -1,7 +1,7 @@
 'use strict';
 
-const should = require('should');
-const Deck = require('../lib/Deck');
+const should  = require('should');
+const Deck    = require('../lib/Deck');
 
 describe('Deck', () => {
   it('Includes uuid when instantiated', (done) => {

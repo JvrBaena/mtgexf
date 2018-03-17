@@ -8,11 +8,13 @@
   },
   "author": "",
   "license": "ISC",
+  "bin": {
+    "mtgexf": "./index.js"
+  },
   "dependencies": {
     "async": "^2.6.0",
     "gexf": "^0.2.5",
     "line-by-line": "^0.1.6",
-    "mtgsdk": "^0.3.0",
     "uuid": "^3.2.1",
     "yargs": "^11.0.0"
   },
