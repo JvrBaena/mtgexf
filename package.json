@@ -11,6 +11,9 @@
   "bin": {
     "mtgexf": "./index.js"
   },
+  "scripts": {
+    "test": "mocha tests/"
+  },
   "dependencies": {
     "async": "^2.6.0",
     "gexf": "^0.2.5",
