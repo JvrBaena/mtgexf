@@ -25,3 +25,5 @@ Mtgexf will generate a gexf file based on the decks with:
 - Edges from deck->card used in that deck
 
 The gexf file is ready to be imported in Gephi so you can tune it and render it!
+(This example has been generated computing modularity, and applying output/input node degree + Fruchterman-Reingold layout)
+![Top 8 Gp Lyon](https://github.com/JvrBaena/mtgexf/blob/master/output/top8Lyon.png?raw=true)
